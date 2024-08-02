@@ -9,6 +9,7 @@ COPY . .
 
 #Install the dependecies
 RUN npm install
+RUN npm install ejs
 RUN npm run test
 EXPOSE 8000
 
